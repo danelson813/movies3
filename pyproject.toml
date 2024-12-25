@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "movies3"
+version = "0.1.0"
+description = ""
+authors = ["Dan Nelson <44625150+danelson813@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+bs4 = "^0.0.2"
+fake-useragent = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
